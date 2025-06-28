@@ -2,6 +2,7 @@ public class Task4 {
     public static void main(String[] args) {
         int deliveryDistance = 95;
 
+
         if (deliveryDistance <= 20) {
             System.out.println("Дней потребуется: 1");
         } else if (deliveryDistance <= 60) {

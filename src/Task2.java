@@ -3,6 +3,7 @@ public class Task2 {
         int clientOS = 0; // 0 — iOS, 1 — Android
         int clientDeviceYear = 2013; // Год выпуска телефона
 
+
         if (clientOS == 0) {
             if (clientDeviceYear < 2015) {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
