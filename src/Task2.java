@@ -1,8 +1,7 @@
 public class Task2 {
     public static void main(String[] args) {
         int clientOS = 0; // 0 — iOS, 1 — Android
-        int clientDeviceYear = 2013; // Год выпуска телефона
-
+        int clientDeviceYear = 2013;
 
         if (clientOS == 0) {
             if (clientDeviceYear < 2015) {
