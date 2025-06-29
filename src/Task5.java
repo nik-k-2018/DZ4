@@ -1,6 +1,6 @@
 public class Task5 {
     public static void main(String[] args) {
-        int monthNumber = 12;
+        int monthNumber = 12; //
 
         if (monthNumber < 1 || monthNumber > 12) {
             System.out.println("Ошибка: Номер месяца должен быть от 1 до 12");
